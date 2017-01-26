@@ -20,7 +20,14 @@
             }*/
 
             $found_user = User::find_user_by_id(2);
-            echo $found_user["username"];
+
+            $user = User::instantation($found_user);
+
+            echo $user->username;
+
+            echo "<br>";
+
+
 
             //$user_found = mysqli_fetch_array($result);
 
