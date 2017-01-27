@@ -1,4 +1,4 @@
-<?php include("includes/User.php") ?>
+
 <div class="container-fluid">
 
     <!-- Page Heading -->
@@ -19,17 +19,28 @@
 
             }*/
 
-            $found_user = User::find_user_by_id(2);
+           /* $found_user = User::find_user_by_id(2);
 
             $user = User::instantation($found_user);
 
             echo $user->username;
 
-            echo "<br>";
+            echo "<br>";*/
 
+            /*$users = User::find_all_users();
 
+            foreach ($users as $user)
+            {
+                echo $user->username . "<br>";
 
-            //$user_found = mysqli_fetch_array($result);
+            }*/
+
+            $found_user = User::find_user_by_id(2);
+
+            echo $found_user->username;
+
+            $picture = new Picture();
+
 
 
             ?>

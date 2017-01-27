@@ -15,10 +15,20 @@ class User
 
     public static function find_user_by_id($user_id)
     {
+        global $database;
+        $the_result_array = self::find_this_query("SELECT * FROM users WHERE id = $user_id LIMIT 1");
 
-        $result_set = self::find_this_query("SELECT * FROM users WHERE id = $user_id");
-        $found_user = mysqli_fetch_array($result_set);
-        return $found_user;
+        return !empty($the_result_array) ? array_shift($the_result_array) : false;
+
+        /* if(!empty($the_result_array))
+        {
+            $first_item = array_shift($the_result_array);
+            return $first_item;
+        } else
+        {
+            return false;
+        }*/
+
 
     }
 
@@ -26,7 +36,13 @@ class User
     {
         global $database;
         $result_set = $database-> query($sql);
-        return $result_set;
+        $the_object_array = array();
+        while ($row = mysqli_fetch_array($result_set) )
+        {
+            $the_object_array[] = self::instantation($row);
+
+        }
+        return $the_object_array;
     }
 
     public static function instantation($the_record)
@@ -43,7 +59,7 @@ class User
        {
             if($the_object->has_the_attribute($the_attribute))
             {
-                $the_object->the_attribute = $value;
+                $the_object->$the_attribute = $value;
 
             }
        }
