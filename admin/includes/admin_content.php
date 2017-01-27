@@ -39,7 +39,7 @@
 
             echo $found_user->username;
 
-            $picture = new Picture();
+
 
 
 
