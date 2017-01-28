@@ -20,14 +20,8 @@ class User
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
 
-        /* if(!empty($the_result_array))
-        {
-            $first_item = array_shift($the_result_array);
-            return $first_item;
-        } else
-        {
-            return false;
-        }*/
+
+
 
 
     }
@@ -43,6 +37,27 @@ class User
 
         }
         return $the_object_array;
+    }
+
+    public static function verify_user()
+    {
+        global $database;
+
+        $username = $database->escape_string($username);
+        $password = $database->escape_string($password);
+
+        $sql = "SELECT * FROM users WHERE ";
+        $sql .= "username = '{$username}' ";
+        $sql .= "AND password = '{$password}' ";
+        $sql .="LIMIT 1";
+
+        $the_result_array = self::find_this_query($sql);
+
+        return !empty($the_result_array) ? array_shift($the_result_array) : false;
+
+
+
+
     }
 
     public static function instantation($the_record)
