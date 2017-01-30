@@ -15,7 +15,7 @@ function classAutoLoader($class)
 
 function redirect($location)
 {
-    header('Location: {$location}');
+    header("Location:{$location}");
 
 }
 

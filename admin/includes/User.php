@@ -20,10 +20,6 @@ class User
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
 
-
-
-
-
     }
 
     public static function find_this_query($sql)
@@ -39,7 +35,7 @@ class User
         return $the_object_array;
     }
 
-    public static function verify_user()
+    public static function verify_user($username, $password)
     {
         global $database;
 
@@ -77,9 +73,11 @@ class User
                 $the_object->$the_attribute = $value;
 
             }
-       }
 
+       }
         return $the_object;
+
+
     }
 
     private function has_the_attribute($the_attribute)
