@@ -53,8 +53,13 @@ class Database{
 
     public function the_insert_id()
     {
-        return $this->connection->insert_id;
+        return mysqli_insert_id($this->connection);
     }
+
+   /* public function the_insert_id()
+    {
+        return $this->connection->insert_id;
+    }*/
 
 
 }

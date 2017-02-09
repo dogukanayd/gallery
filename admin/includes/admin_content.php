@@ -11,39 +11,27 @@
 
             <?php
 
+           /* $user = new User();
+            $user->username     = "Suave The Second";
+            $user->password     = "Dogu Last Name";
+            $user->first_name   = "Johnes";
+            $user->last_name    = "Doess";
 
-          /*  $result_set = User::find_all_users();
-            while($row = mysqli_fetch_array($result_set))
-            {
-                echo $row['username'] . "<br>";
+            $user->create();*/
 
-            }*/
+           /*$user = User::find_user_by_id(3);
+           $user->last_name = "aydogdu";
+           $user->update();*/
 
-           /* $found_user = User::find_user_by_id(2);
-
-            $user = User::instantation($found_user);
-
-            echo $user->username;
-
-            echo "<br>";*/
-
-            /*$users = User::find_all_users();
-
-            foreach ($users as $user)
-            {
-                echo $user->username . "<br>";
-
-            }*/
-
-            $found_user = User::find_user_by_id(2);
-
-            echo $found_user->username;
-
-
-
-
+           $user = User::find_user_by_id(5);
+           $user->delete();
 
             ?>
+
+
+
+
+
 
             <ol class="breadcrumb">
                 <li>
