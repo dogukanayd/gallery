@@ -11,20 +11,35 @@
 
             <?php
 
-           /* $user = new User();
-            $user->username     = "Suave The Second";
-            $user->password     = "Dogu Last Name";
-            $user->first_name   = "Johnes";
-            $user->last_name    = "Doess";
+            $user = new User();
 
-            $user->create();*/
+            $user->username     = "student";
+            $user->password     = "something";
+            $user->first_name   = "alex";
+            $user->last_name    = "de souza";
 
-           /*$user = User::find_user_by_id(3);
+            $user->create();
+ 
+           /*$user = User::find_user_by_id(12);
+           $user->username = "dogukan93";
+           $user->password = "dogukan12";
+           $user->first_name = "dogukan";
            $user->last_name = "aydogdu";
            $user->update();*/
 
-           $user = User::find_user_by_id(5);
-           $user->delete();
+           /*$user = User::find_user_by_id(7);
+           $user->delete();*/
+
+            /*$user = User::find_user_by_id(7);
+
+            $user->password = "admin";
+            $user->save();*/
+
+
+            /*$user = new User();
+
+            $user->username = "super_admin";
+            $user->save();*/
 
             ?>
 
