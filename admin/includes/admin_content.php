@@ -11,14 +11,14 @@
 
             <?php
 
-            $user = new User();
+            /*$user = new User();
 
             $user->username     = "student";
             $user->password     = "something";
             $user->first_name   = "alex";
             $user->last_name    = "de souza";
 
-            $user->create();
+            $user->create();*/
  
            /*$user = User::find_user_by_id(12);
            $user->username = "dogukan93";
@@ -40,6 +40,12 @@
 
             $user->username = "super_admin";
             $user->save();*/
+
+            $users = User::find_all();
+
+            foreach($users as $user){
+                echo $user->username;
+            }
 
             ?>
 
