@@ -2,11 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ddef02-7f90-4f4d-9c53-885ca414ce39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/includes/db_object.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/includes/photo.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures.zip" afterPath="$PROJECT_DIR$/car_pictures.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/_large_image_1.jpg" afterPath="$PROJECT_DIR$/car_pictures/_large_image_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/_large_image_2.jpg" afterPath="$PROJECT_DIR$/car_pictures/_large_image_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/_large_image_3.jpg" afterPath="$PROJECT_DIR$/car_pictures/_large_image_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/_large_image_4.jpg" afterPath="$PROJECT_DIR$/car_pictures/_large_image_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/image-1 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/image-1 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/image-1.jpg" afterPath="$PROJECT_DIR$/car_pictures/image-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-1 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-1 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-1.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-10 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-10 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-10.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-11 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-11 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-11.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-12 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-12 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-12.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-13 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-13 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-13.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-14 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-14 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-14.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-15 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-15 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-15.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-16 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-16 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-16.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-17 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-17 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-17.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-18 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-18 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-18.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-19 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-19 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-19.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-2 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-2 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-20 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-20 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-20.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-21 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-21 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-21.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-22 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-22 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-22.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-23 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-23 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-23.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-24 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-24 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-24.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-25 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-25 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-25.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-26 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-26 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-26.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-27 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-27 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-27.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-28 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-28 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-28.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-29 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-29 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-29.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-3 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-3 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-3.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-30 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-30 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-30.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-31 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-31 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-31.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-32 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-32 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-32.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-32.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-33 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-33 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-33.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-33.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-34 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-34 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-34.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-34.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-35 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-35 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-35.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-35.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-36 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-36 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-36.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-36.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-37 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-37 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-37.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-37.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-38 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-38 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-38.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-38.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-39 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-39 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-39.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-39.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-4 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-4 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-4.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-40 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-40 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-40.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-40.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-41 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-41 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-41.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-41.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-42 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-42 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-42.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-42.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-43 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-43 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-43.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-43.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-44 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-44 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-44.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-44.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-5 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-5 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-5.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-50 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-50 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-50.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-50.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-6 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-6 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-6.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-7 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-7 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-7.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-8 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-8 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-8.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-9 copy.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-9 copy.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images-9.jpg" afterPath="$PROJECT_DIR$/car_pictures/images-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/car_pictures/images_2.jpg" afterPath="$PROJECT_DIR$/car_pictures/images_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Dogukan.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Dogukan.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gallery.iml" afterPath="$PROJECT_DIR$/.idea/gallery.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/comments.php" afterPath="$PROJECT_DIR$/admin/comments.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/User.php" afterPath="$PROJECT_DIR$/admin/includes/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/admin_content.php" afterPath="$PROJECT_DIR$/admin/includes/admin_content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/database.php" afterPath="$PROJECT_DIR$/admin/includes/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/db_object.php" afterPath="$PROJECT_DIR$/admin/includes/db_object.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/footer.php" afterPath="$PROJECT_DIR$/admin/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/functions.php" afterPath="$PROJECT_DIR$/admin/includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/header.php" afterPath="$PROJECT_DIR$/admin/includes/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/init.php" afterPath="$PROJECT_DIR$/admin/includes/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/new_config.php" afterPath="$PROJECT_DIR$/admin/includes/new_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/session.php" afterPath="$PROJECT_DIR$/admin/includes/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/side_nav.php" afterPath="$PROJECT_DIR$/admin/includes/side_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/top_nav.php" afterPath="$PROJECT_DIR$/admin/includes/top_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/login.php" afterPath="$PROJECT_DIR$/admin/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/logout.php" afterPath="$PROJECT_DIR$/admin/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/photos.php" afterPath="$PROJECT_DIR$/admin/photos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/upload.php" afterPath="$PROJECT_DIR$/admin/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/users.php" afterPath="$PROJECT_DIR$/admin/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/navigation.php" afterPath="$PROJECT_DIR$/includes/navigation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/sidebar.php" afterPath="$PROJECT_DIR$/includes/sidebar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,21 +139,27 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="gallery" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="192">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
               <folding>
-                <marker date="1487601366000" expanded="true" signature="513:527" ph="SELECT * FRO... ${self::$db_table}" />
-                <marker date="1487601366000" expanded="true" signature="513:532" ph="SELECT * FRO... users" />
-                <marker date="1487601366000" expanded="true" signature="513:556" ph="SELECT * FRO... ${self::$db_table}" />
-                <marker date="1487601366000" expanded="true" signature="1685:1768" ph="INSERT INTO ${self::$db_table}... " />
-                <marker date="1487601366000" expanded="true" signature="2721:2768" ph="DELETE FROM " />
-                <marker date="1487601366000" expanded="true" signature="2741:2768" ph="DELETE FROM " />
+                <marker date="1487866165000" expanded="true" signature="506:549" ph="SELECT * FRO... ${self::$db_table}" />
               </folding>
             </state>
           </provider>
@@ -41,11 +168,15 @@
       <file leaf-file-name="db_object.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding>
-                <marker date="1487602687000" expanded="true" signature="151:166" ph="SELECT * FRO... ${static::$db_table}" />
-                <marker date="1487602687000" expanded="true" signature="334:401" ph="SELECT * FRO... ${static::$db_table}" />
+                <marker date="1487866586000" expanded="true" signature="151:166" ph="SELECT * FRO... ${static::$db_table}" />
+                <marker date="1487866586000" expanded="true" signature="334:401" ph="SELECT * FRO... ${static::$db_table}" />
+                <marker date="1487866586000" expanded="true" signature="2285:2302" ph="INSERT INTO ${self::$db_table}... " />
+                <marker date="1487866586000" expanded="true" signature="2285:2370" ph="INSERT INTO ${static::$db_table}... " />
+                <marker date="1487866586000" expanded="true" signature="3325:3374" ph="DELETE FROM " />
+                <marker date="1487866586000" expanded="true" signature="3347:3374" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -54,11 +185,9 @@
       <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-              <folding>
-                <element signature="e#263#497#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="464">
+              <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +195,18 @@
       <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="112">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -85,8 +224,8 @@
       <find>find_by_query</find>
       <find>static</find>
       <find>find_this_query</find>
-      <find>find</find>
       <find>static::</find>
+      <find>find</find>
       <find>self::</find>
     </findStrings>
     <replaceStrings>
@@ -108,7 +247,6 @@
         <option value="$PROJECT_DIR$/admin/photos.php" />
         <option value="$PROJECT_DIR$/admin/upload.php" />
         <option value="$PROJECT_DIR$/admin/includes/config.php" />
-        <option value="$PROJECT_DIR$/admin/includes/new_config.php" />
         <option value="$PROJECT_DIR$/admin/includes/user.php" />
         <option value="$PROJECT_DIR$/admin/includes/login.php" />
         <option value="$PROJECT_DIR$/admin/includes/header.php" />
@@ -121,10 +259,12 @@
         <option value="$PROJECT_DIR$/admin/includes/top_nav.php" />
         <option value="$PROJECT_DIR$/admin/includes/database.php" />
         <option value="$PROJECT_DIR$/includes/db_object.php" />
-        <option value="$PROJECT_DIR$/admin/includes/init.php" />
+        <option value="$PROJECT_DIR$/admin/includes/new_config.php" />
         <option value="$PROJECT_DIR$/admin/includes/User.php" />
         <option value="$PROJECT_DIR$/admin/includes/db_object.php" />
         <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
+        <option value="$PROJECT_DIR$/admin/includes/init.php" />
+        <option value="$PROJECT_DIR$/admin/includes/photo.php" />
       </list>
     </option>
   </component>
@@ -144,6 +284,22 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -160,7 +316,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,17 +376,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.31800392" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -324,21 +480,35 @@
       <workItem from="1486853447165" duration="46000" />
       <workItem from="1486896775351" duration="6534000" />
       <workItem from="1487027268853" duration="534000" />
-      <workItem from="1487599035363" duration="3698000" />
+      <workItem from="1487599035363" duration="5317000" />
+      <workItem from="1487715951313" duration="361000" />
+      <workItem from="1487770940457" duration="625000" />
+      <workItem from="1487863532545" duration="343000" />
+      <workItem from="1487864714384" duration="1645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51280000" />
+    <option name="totallyTimeSpent" value="55873000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20840065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
@@ -349,7 +519,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -365,13 +534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -391,12 +553,7 @@
         <state relative-caret-position="1248">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
-            <marker date="1487601366000" expanded="true" signature="513:527" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="513:532" ph="SELECT * FRO... users" />
-            <marker date="1487601366000" expanded="true" signature="513:556" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="1685:1768" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1487601366000" expanded="true" signature="2721:2768" ph="DELETE FROM " />
-            <marker date="1487601366000" expanded="true" signature="2741:2768" ph="DELETE FROM " />
+            <marker date="1487866165000" expanded="true" signature="506:549" ph="SELECT * FRO... ${self::$db_table}" />
           </folding>
         </state>
       </provider>
@@ -449,12 +606,7 @@
         <state relative-caret-position="352">
           <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
-            <marker date="1487601366000" expanded="true" signature="513:527" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="513:532" ph="SELECT * FRO... users" />
-            <marker date="1487601366000" expanded="true" signature="513:556" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="1685:1768" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1487601366000" expanded="true" signature="2721:2768" ph="DELETE FROM " />
-            <marker date="1487601366000" expanded="true" signature="2741:2768" ph="DELETE FROM " />
+            <marker date="1487866165000" expanded="true" signature="506:549" ph="SELECT * FRO... ${self::$db_table}" />
           </folding>
         </state>
       </provider>
@@ -492,12 +644,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487601366000" expanded="true" signature="513:527" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="513:532" ph="SELECT * FRO... users" />
-            <marker date="1487601366000" expanded="true" signature="513:556" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="1685:1768" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1487601366000" expanded="true" signature="2721:2768" ph="DELETE FROM " />
-            <marker date="1487601366000" expanded="true" signature="2741:2768" ph="DELETE FROM " />
+            <marker date="1487866165000" expanded="true" signature="506:549" ph="SELECT * FRO... ${self::$db_table}" />
           </folding>
         </state>
       </provider>
@@ -529,12 +676,7 @@
         <state relative-caret-position="496">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <marker date="1487601366000" expanded="true" signature="513:527" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="513:532" ph="SELECT * FRO... users" />
-            <marker date="1487601366000" expanded="true" signature="513:556" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="1685:1768" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1487601366000" expanded="true" signature="2721:2768" ph="DELETE FROM " />
-            <marker date="1487601366000" expanded="true" signature="2741:2768" ph="DELETE FROM " />
+            <marker date="1487866165000" expanded="true" signature="506:549" ph="SELECT * FRO... ${self::$db_table}" />
           </folding>
         </state>
       </provider>
@@ -566,12 +708,7 @@
         <state relative-caret-position="48">
           <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding>
-            <marker date="1487601366000" expanded="true" signature="513:527" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="513:532" ph="SELECT * FRO... users" />
-            <marker date="1487601366000" expanded="true" signature="513:556" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="1685:1768" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1487601366000" expanded="true" signature="2721:2768" ph="DELETE FROM " />
-            <marker date="1487601366000" expanded="true" signature="2741:2768" ph="DELETE FROM " />
+            <marker date="1487866165000" expanded="true" signature="506:549" ph="SELECT * FRO... ${self::$db_table}" />
           </folding>
         </state>
       </provider>
@@ -717,73 +854,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/new_config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="0">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="192">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
           <folding>
-            <element signature="e#263#497#0#PHP" expanded="true" />
+            <marker date="1487866165000" expanded="true" signature="506:549" ph="SELECT * FRO... ${self::$db_table}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/db_object.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding>
-            <marker date="1487602687000" expanded="true" signature="151:166" ph="SELECT * FRO... ${static::$db_table}" />
-            <marker date="1487602687000" expanded="true" signature="334:401" ph="SELECT * FRO... ${static::$db_table}" />
+            <marker date="1487866586000" expanded="true" signature="151:166" ph="SELECT * FRO... ${static::$db_table}" />
+            <marker date="1487866586000" expanded="true" signature="334:401" ph="SELECT * FRO... ${static::$db_table}" />
+            <marker date="1487866586000" expanded="true" signature="2285:2302" ph="INSERT INTO ${self::$db_table}... " />
+            <marker date="1487866586000" expanded="true" signature="2285:2370" ph="INSERT INTO ${static::$db_table}... " />
+            <marker date="1487866586000" expanded="true" signature="3325:3374" ph="DELETE FROM " />
+            <marker date="1487866586000" expanded="true" signature="3347:3374" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/User.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <marker date="1487601366000" expanded="true" signature="513:527" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="513:532" ph="SELECT * FRO... users" />
-            <marker date="1487601366000" expanded="true" signature="513:556" ph="SELECT * FRO... ${self::$db_table}" />
-            <marker date="1487601366000" expanded="true" signature="1685:1768" ph="INSERT INTO ${self::$db_table}... " />
-            <marker date="1487601366000" expanded="true" signature="2721:2768" ph="DELETE FROM " />
-            <marker date="1487601366000" expanded="true" signature="2741:2768" ph="DELETE FROM " />
-          </folding>
+        <state relative-caret-position="464">
+          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

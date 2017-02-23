@@ -11,11 +11,7 @@ class User extends Db_object
     public $first_name;
     public $last_name;
 
-
-
-
-
-    public static function verify_user($username, $password)
+ public static function verify_user($username, $password)
     {
         global $database;
 
@@ -30,9 +26,6 @@ class User extends Db_object
         $the_result_array = self::find_by_query($sql);
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
-
-
-
 
     }
 
@@ -53,77 +46,11 @@ class User extends Db_object
         return $properties;
     }
 
-    protected function clean_properties()
-    {
-        global $database;
-        $clean_properties = array();
-
-        foreach ($this->properties() as $key=>$value) {
-            $clean_properties[$key] = $database->escape_string($value);
-        }
-
-        return $clean_properties;
-    }
 
 
 
-    public function save()
-    {
-        return isset($this->id) ? $this->update() : $this->create();
-    }
-
-    public function create()
-    {
-        global $database;
-        $properties = $this->clean_properties();
-
-        $sql =  "INSERT INTO " . self::$db_table . "(" .  implode(",", array_keys($properties)) . ")";
-        $sql .= "VALUES ('". implode("','", array_values($properties)) . "')";
 
 
-        if($database->query($sql))
-        {
-            $this->id = $database -> the_insert_id();
-            return true;
-        } else
-        {
-            return false;
-        }
-
-    } // Create Method
-
-    public function update()
-    {
-        global $database;
-
-        $properties = $this->properties();
-        $properties_pairs = array();
-
-        foreach ($properties as $key => $value)
-        {
-            $properties_pairs[] = "{$key}='{$value}'";
-        }
-
-        $sql  = "UPDATE " . self::$db_table . " SET ";
-        $sql .= implode(", ", $properties_pairs);
-        $sql .= " WHERE id= " . $database->escape_string($this->id);
-
-        $database->query($sql);
-
-        return (mysqli_affected_rows($database->connection) == 1) ? true : false;
-
-    } // update method
-
-    public function delete()
-    {
-        global $database;
-        $sql = "DELETE FROM " . self::$db_table . " WHERE id = " . $database->escape_string($this->id);
-
-        $database->query($sql);
-
-        return (mysqli_affected_rows($database->connection) == 1) ? true : false;
-
-    } // delete method
 
 
 

@@ -39,13 +39,13 @@
             /*$user = new User();
 
             $user->username = "super_admin";
-            $user->save();*/
+            $user->save(); */
 
-            $users = User::find_all();
+            /*$users = User::find_all();
 
             foreach($users as $user){
                 echo $user->username;
-            }
+            }*/
 
             ?>
 
