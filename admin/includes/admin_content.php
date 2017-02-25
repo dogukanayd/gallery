@@ -46,6 +46,21 @@
             foreach($users as $user){
                 echo $user->username;
             }*/
+            /*$photos = Photo::find_all();
+
+          foreach($photos as $photo){
+              echo $photo->title;
+          }*/
+
+            /*$photo = new Photo();
+            $photo->title = "Just some test title";
+            $photo->size = 20;
+
+            $photo->create();*/
+
+
+
+
 
             ?>
 
