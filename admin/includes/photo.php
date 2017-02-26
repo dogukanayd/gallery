@@ -2,9 +2,9 @@
 class Photo extends Db_object{
 
     protected static $db_table = "photos";
-    protected static $db_table_fields = array('photo_id','title','description','filename','type','size');
+    protected static $db_table_fields = array('id','title','description','filename','type','size');
 
-    public $photo_id;
+    public $id;
     public $title;
     public $description;
     public $filename;
@@ -50,40 +50,52 @@ class Photo extends Db_object{
         return $this->upload_directory.DS.$this->filename;
     }
 
-    public function save(){
-        if($this->photo_id){
+    public function save()
+    {
+        if ($this->id) {
             $this->update();
-        } else{
-            if(!empty($this->errors)){
+        } else {
+            if (!empty($this->errors)) {
                 return false;
             }
 
-            if(empty($this->filename) || empty($this->tmp_path)){
+            if (empty($this->filename) || empty($this->tmp_path)) {
                 $this->errors[] = "The file was not available";
                 return false;
             }
 
             $target_path = SITE_ROOT . DS . 'admin' . DS . $this->upload_directory . DS . $this->filename;
 
-            if(file_exists($target_path)){
+            if (file_exists($target_path)) {
                 $this->errors[] = "The file {$this->filename} already exists.";
                 return false;
             }
 
-            if(move_uploaded_file($this->tmp_path, $target_path)){
-                if($this->create()){
+            if (move_uploaded_file($this->tmp_path, $target_path)) {
+                if ($this->create()) {
                     unset($this->tmp_path);
                     return true;
                 }
-            }else{
+            } else {
                 $this->errors[] = "The file directory probably does not have permission";
                 return false;
             }
 
         }
+    } /* End of save */
+
+    public function delete_photo(){
+        if($this->delete()){
+            $target_path = SITE_ROOT.DS. 'admin' . DS . $this->picture_path();
+
+            return unlink($target_path) ? true : false;
+
+        }else{
+            return false;
+        }
     }
 
-}
+}/* End of class */
 
 
 ?>

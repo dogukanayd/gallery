@@ -19,6 +19,10 @@ function redirect($location)
 
 }
 
+function output_message($message){
+    return $message;
+}
+
 spl_autoload_register('classAutoLoader');
 
 ?>

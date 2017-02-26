@@ -11,6 +11,16 @@
 
             <?php
 
+            /*$user = User::find_by_id(1);
+
+            echo $user->username;*/
+
+            $photo = Photo::find_by_id(5);
+
+            echo $photo->filename;
+
+
+
             /*$user = new User();
 
             $user->username     = "student";
