@@ -3,8 +3,11 @@
     width: 200px;
     border-radius: 5px ;
 }
-
-/** Edit Photo Page Side Bar Styles **>
+.user_image{
+    width: 62px !important;
+    height: 62px !important;
+}
+ /*Edit Photo Page Side Bar Styles */
 .photo-info-box {
 
     border: 1px solid #e5e5e5;
