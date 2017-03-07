@@ -54,13 +54,13 @@ $users = User::find_all();
                             <?php foreach ($users as $user) : ?>
                                 <tr>
                                     <td><?php echo $user->id; ?></td>
-                                    <td><img class="admin-user-thumbnail user_image" style="width: 62px; height: 62px;" src="<?php echo $user->image_path_and_placeholder(); ?>" alt=""></td>
+                                    <td><img class="admin-user-thumbnail user_image " style="width: 62px; height: 62px;" src="<?php echo $user->image_path_and_placeholder(); ?>" alt=""></td>
 
                                     <td><?php echo $user->username; ?>
                                         <div class="action_link">
                                             <a href="delete_user.php?id=<?php echo $user->id; ?>">Delete | </a>
-                                            <a href="edit_user.php?id=<?php echo $user->id; ?>">Edit | </a>
-                                            <a href="#">View</a>
+                                            <a href="edit_user.php?id=<?php echo $user->id; ?>">Edit  </a>
+
                                         </div>
                                     </td>
                                     <td><?php echo $user->first_name; ?></td>
