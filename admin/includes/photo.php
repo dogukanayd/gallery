@@ -1,8 +1,10 @@
 <?php
-class Photo extends Db_object{
+
+class Photo extends Db_object
+{
 
     protected static $db_table = "photos";
-    protected static $db_table_fields = array('id','title','caption','description','filename','alternate_text','type','size');
+    protected static $db_table_fields = array('id', 'title', 'caption', 'description', 'filename', 'alternate_text', 'type', 'size');
 
     public $id;
     public $title;
@@ -16,40 +18,40 @@ class Photo extends Db_object{
     public $tmp_path;
     public $upload_directory = "images";
     public $errors = array();
-    public $upload_errors_array = array (
+    public $upload_errors_array = array(
 
-            UPLOAD_ERR_OK           => "There is no error",
-            UPLOAD_ERR_INI_SIZE     =>"The uploaded file exceeds the upload_max_filesize",
-            UPLOAD_ERR_FORM_SIZE    =>"The uploaded file exceeds the MAX_FILE_SIZE",
-            UPLOAD_ERR_NO_FILE      =>"No file was uploaded",
-            UPLOAD_ERR_NO_TMP_DIR   =>"Missing a temporary folder.",
-            UPLOAD_ERR_CANT_WRITE   =>"Failed to write file to disk.",
-            UPLOAD_ERR_EXTENSION    =>"A PHP  extension stopped the file upload."
+        UPLOAD_ERR_OK => "There is no error",
+        UPLOAD_ERR_INI_SIZE => "The uploaded file exceeds the upload_max_filesize",
+        UPLOAD_ERR_FORM_SIZE => "The uploaded file exceeds the MAX_FILE_SIZE",
+        UPLOAD_ERR_NO_FILE => "No file was uploaded",
+        UPLOAD_ERR_NO_TMP_DIR => "Missing a temporary folder.",
+        UPLOAD_ERR_CANT_WRITE => "Failed to write file to disk.",
+        UPLOAD_ERR_EXTENSION => "A PHP  extension stopped the file upload."
     );
 
     // This is passing $_FILES['uploaded_file'] as an argument
 
-    public function set_file($file){
+    public function set_file($file)
+    {
 
-        if(empty($file) || !$file || !is_array($file)){
+        if (empty($file) || !$file || !is_array($file)) {
             $this->errors[] = "There was no file uploaded here";
             return false;
-        }
-        elseif ($file['error'] !=0){
+        } elseif ($file['error'] != 0) {
             $this->errors[] = $this->upload_errors_array[$file['error']];
             return false;
-        }
-        else{
+        } else {
             $this->filename = basename($file['name']);
             $this->tmp_path = $file['tmp_name'];
-            $this->type     = $file['type'];
-            $this->size     = $file['size'];
+            $this->type = $file['type'];
+            $this->size = $file['size'];
         }
 
     } //end of set_file
 
-    public function picture_path(){
-        return $this->upload_directory.DS.$this->filename;
+    public function picture_path()
+    {
+        return $this->upload_directory . DS . $this->filename;
     }
 
     public function save()
@@ -86,13 +88,14 @@ class Photo extends Db_object{
         }
     } /* End of save */
 
-    public function delete_photo(){
-        if($this->delete()){
-            $target_path = SITE_ROOT.DS. 'admin' . DS . $this->picture_path();
+    public function delete_photo()
+    {
+        if ($this->delete()) {
+            $target_path = SITE_ROOT . DS . 'admin' . DS . $this->picture_path();
 
             return unlink($target_path) ? true : false;
 
-        }else{
+        } else {
             return false;
         }
     }
