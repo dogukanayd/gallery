@@ -23,9 +23,10 @@ if (isset($_POST['submit'])) {
 
 } else {
     $author = "";
-    $body ="";
+    $body = "";
 }
-Comment::find_the_comments($photo->id);
+$comments = Comment::find_the_comments($photo->id);
+
 ?>
 
 <!DOCTYPE html>
@@ -159,6 +160,20 @@ Comment::find_the_comments($photo->id);
             <hr>
 
             <!-- Posted Comments -->
+            <?php foreach ($comments as $comment): ?>
+                <!-- Comment -->
+                <div class="media">
+                    <a href="#" class="pull-left">
+                        <img src="http://placehold.it/64x64" alt="" class="media-object">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading"><?php echo $comment->author; ?>
+                            <small>August 25, 2030 at 9:30 PM</small>
+                        </h4>
+                        <?php echo $comment->body ?>
+                    </div>
+                </div>
+            <?php endforeach; ?>
 
 
         </div>
