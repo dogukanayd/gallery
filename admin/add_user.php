@@ -16,24 +16,15 @@ if (isset($_POST['create'])) {
         $user->password = $_POST['password'];
 
         $user->set_file($_FILES['user_image']);
-        $user->save_user_and_image();
+        $user->upload_photo(); // for save the data and photo in same moment you must use this two function
+        $user->create(); // for save the data and photo in same moment you must use this two function
 
     }
 
 
-//        if($user){
-//            $user->title           = $_POST['title'];
-//            $user->caption         = $_POST['caption'];
-//            $user-> alternate_text = $_POST['alternate_text'];
-//            $user-> description    = $_POST['description'];
-//
-//            $user->save();
-//        }
 
 }
 
-
-//$users = user::find_all();
 
 ?>
 
