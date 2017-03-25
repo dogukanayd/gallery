@@ -3,3 +3,15 @@
     height: 120px !important;
 
 }
+
+/**** Home Page Pagination ****/
+
+.pager .active a {
+    background-color: #000000 !important;
+    color: #fff;
+}
+
+.page .active a:hover{
+    background-color: #000000 !important;
+    color: #fff;
+}
