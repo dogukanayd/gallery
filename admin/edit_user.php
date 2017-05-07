@@ -1,4 +1,5 @@
 <?php include("includes/header.php"); ?>
+<?php include("includes/photo_library_modal.php"); ?>
 
 <?php if (!$session->is_signed_in()) {
     redirect("login.php");
@@ -27,16 +28,11 @@ if (isset($_POST['update'])) {
             $user->save();
             redirect("edit_user.php?id={$user->id}");
         }
-
-
     }
-
 }
-
-
 ?>
 
-    <!-- Navigation -->
+<!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
 
@@ -59,8 +55,8 @@ if (isset($_POST['update'])) {
                         <small>Subheading</small>
                     </h1>
 
-                    <div class="col-md-6">
-                        <img class="img-responsive" src="<?php echo $user->image_path_and_placeholder(); ?>" alt="">
+                    <div class="col-md-6 user_image_box">
+                        <a href="#" data-toggle="modal" data-target="#photo-library"><img class="img-responsive" src="<?php echo $user->image_path_and_placeholder(); ?>" alt=""></a>
                     </div>
                     <form action="" method="post" enctype="multipart/form-data">
 
@@ -108,7 +104,7 @@ if (isset($_POST['update'])) {
                             <div class="form-group">
 
 
-                                <a class="btn btn-danger pull-left" href="delete_user.php?id=<?php echo $user->id; ?>">Delete</a>
+                                <a id="user-id" class="btn btn-danger pull-left" href="delete_user.php?id=<?php echo $user->id; ?>">Delete</a>
 
                                 <input type="submit" name="update" class="btn btn-primary pull-right" value="Update">
 
