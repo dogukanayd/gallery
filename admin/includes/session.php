@@ -8,6 +8,7 @@ class Session
     public $count;
 
 
+
     function __construct()
     {
         session_start();
@@ -15,6 +16,7 @@ class Session
         $this->check_the_login();
         $this->check_message();
     }
+
 
     public function visitor_count()
     {
@@ -30,7 +32,7 @@ class Session
         if (!empty($msg)) {
             $_SESSION['message'] = $msg;
         } else {
-            return $this->message();
+            return $this->message;
         }
     }
 
@@ -79,6 +81,7 @@ class Session
 }
 
 $session = new Session();
+$message = $session->message();
 
 
 ?>

@@ -18,6 +18,7 @@ if (isset($_POST['create'])) {
         $user->set_file($_FILES['user_image']);
         $user->upload_photo(); // for save the data and photo in same moment you must use this two function
         $user->create(); // for save the data and photo in same moment you must use this two function
+        redirect("users.php");
 
     }
 
